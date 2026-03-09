@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/tax-shield-ai/',
   server: {
     allowedHosts: 'all',
   },
